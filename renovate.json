@@ -3,15 +3,5 @@
     {
       "matchUpdateTypes": ["minor", "patch", "pin"]
     }
-  ],
-  "hostRules": [
-    {
-      "matchHost": "https://npm.pkg.github.com/",
-      "hostType": "npm",
-      "encrypted": {
-        "token": "wcFMA/xDdHCJBTolAQ/8CUq6FMnZ3Os9as8odpa7fv8yu8SDVFHw/umLU3uL2+YYbx18FfgmGoxKt8WfOVQY7FBYHmU4ZWem2lYOZvXiUJ7zRTCr+lRB0TjqViVR4DtSFxxDM8OAYVQEXHn7a/OBQItg1bFpivo3BB8WojyaHJQtvnUX0Qrau2h5wuC0rPT1SZxzWwh/01oep9UGXJjnNuikOy1ygTuIykbTksNL+Lbf5B4RVPMwJ0rUXEEu/lIt93xtRXUelwVug7Qw6yzN3WGdAEUMWotZQaxcwvUYNSnCZnGNQ34sRaUnWmlUC5hh0EBXrynAOYMSssetY2vM6Ok30ovKQ/1oBYfYpTT69LoQAHY52UC8mf7CXaYtOOIGDTuYdJ61dyFJWdXoqb9hRwSx1BdQ+mnjj3MNgXwB0Wn00TZFJp1SF0tH5bCxuyJykyyK2nMBSVEm+4ckBCEY/q/4odfvmwcElttPv/Okff5pX0/SyXOS8qK2IqaByxaYs5hvN6v7D+V6trI1tyKvDvzbA8rpxKPKg8T6CROqiKySIn9OePd0+HmH/kHCczW8g+qb9FIvciSdrIcZMjvt8AW4EaUZRYTjCw+ZDo+XPNzBHqfZfH2CY+tjovlcv8UGmm7u9s1ULJngmFQHRgfNIsOdDKzRsWRYVRVrCjXEAONIUBufK4jwleCwi7KkzH7SeQGrvqoNjofyWU97qz23i51RPrAkAhOlQksVDvtZFlDrVL+tT9fD8VaruteB0P58Ky2Yg+dZlX6EqkjyoQIfUF23zIT3HyAiLlc8ffrvQd9esOKUuX373US9XsLB7y43F29Jm+n+tmjLyUHC2/QwjTx2HPrIXVZ6uWM"
-      }
-    }
-  ],
-  "npmrc": "@philipabed:registry=https://npm.pkg.github.com/"
+  ]
 }
