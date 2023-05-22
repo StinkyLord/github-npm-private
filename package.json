@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "@philipabed/somepackagephil": "1.0.0"
+    "@philipabed/somepackagephil": "1.0.0",
+    "@philipabed/doesntexist": "1.0.0"
   } 
 }
