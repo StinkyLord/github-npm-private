@@ -1,7 +1,9 @@
 {
-  "packageRules": [
+   "hostRules": [
     {
-      "matchUpdateTypes": ["minor", "patch", "pin"]
+      "hostType": "npm",
+      "matchHost": "https://npm.pkg.github.com",
+      "token": "{{ secrets.PHILIP_TOKEN }}"
     }
   ]
 }
