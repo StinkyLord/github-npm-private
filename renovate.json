@@ -1,13 +1,13 @@
 {
    "extends": [
-		"config:best-practices"
+		"config:base"
 	],
    "hostRules": [
     {
       "hostType": "npm",
       "matchHost": "https://npm.pkg.github.com",
        "encrypted": {
-         "token": "{{ secrets.PHILIP_TOKEN }}"    
+         "token": "wcFMA9v/dvTnrML2AQ//V16exV3STrTbPPuQZuYvzCgfPsWWsBeOkldNyjVU/BEYET/xVoUfTYsJPzOYuyxX2j8HrpAvNF5fdJrNzf4EPBFl6m9NYb5fS5Ia1TBxzcs4SJ6atwYupi1BhjVvHWL0x4+KZqdLTNF0MZUke1YjLIi8/Fszke2KRppLRprzcTTAhfsXV+/dkza/h53mVqUwYpaliaO7PErqLDPLjPv4Zc2zfONFJRknSMOS/iZb7mtkFW8Ty9aD2eHChFSsesUbmr9mfXsiZMHJHaWXaz/2SUDaTBBnsrZncb4IisvMRuGmCggQG353X5g4DGawVpwdN32AVISUJclclZWCKK+tCFESZwI69oMmRzCeot313G0odxHidRbZPm44/G4GnaVNMQlw5uXEDHM/9WRqdkdRfScTdnEPUw7uxyca0gcj+DKILKf52xHkMqyAc/xCyQ8lLcNjtv8EHYLml1R+GsJiNgIP4QOK8n75DyN+AOZsynz69Qm44z1ybI6+rDPwdj+IwbMS5Tu0Fs9vP5GBdWMKliAEmkOBm2elrV5t5ZUYF/5U32OwIeSDnhi8XTlNE2Pw2hgqiCkuXhZxbaycUB02E/96AvizsP4cY7V5ofoUWdCmkdZRul5CciuyzOXon2+bzfvUpKZVToKtYdZ8StBxlB4vgEw2yIiClKIDDSRpRl7SeQE5vU1Q57nKTrfm83pCL9By+XrfL1I002l2qjKDIPSNUUOLiQLxkDiIXL0jRqj/undpc/7rcziXZpcOtIEu5EMAgXeJ646/4HVD4G7RxjQxnlvfUaUoBETFbYz3fQKkiAEpNjWBXxyyddphMUQen9/iu4jNcdhIKis"    
        }
     }
   ]
