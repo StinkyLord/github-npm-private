@@ -3,7 +3,9 @@
     {
       "hostType": "npm",
       "matchHost": "https://npm.pkg.github.com",
-      "token": "{{ secrets.PHILIP_TOKEN }}"
+       "encrypted": {
+         "token": "{{ secrets.PHILIP_TOKEN }}"    
+       }
     }
   ]
 }
