@@ -4,7 +4,6 @@
 	],
    "rebaseWhen": "automerging",
    "automerge": true,
-   "ignoreTests": true,
    "hostRules": [
     {
       "hostType": "npm",
