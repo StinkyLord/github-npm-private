@@ -3,6 +3,6 @@
     "@philipabed/somepackagephil": "1.0.0",
     "@philipabed/doesntexist": "1.0.0",
     "six-sdk": "1.0.1",
-    "six": "0.0.1"
+    "six": "0.0.12"
   } 
 }
