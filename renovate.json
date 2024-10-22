@@ -2,6 +2,8 @@
    "extends": [
 		"config:base"
 	],
+   "rebaseWhen": "automerging",
+   "automerge": true,
    "hostRules": [
     {
       "hostType": "npm",
