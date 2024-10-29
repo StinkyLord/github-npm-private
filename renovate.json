@@ -3,7 +3,7 @@
 		"config:base",
 	        ":disableRateLimiting"
 	],
-   "automerge": true,
+   "rebaseWhen": "automerging",
    "hostRules": [
     {
       "hostType": "npm",
