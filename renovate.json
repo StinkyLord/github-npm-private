@@ -1,9 +1,9 @@
 {
    "extends": [
+	   	"mergeConfidence:all-badges",
 		"config:base",
 	        ":disableRateLimiting"
 	],
-   "automerge":true,
     "packageRules": [
     {
       "matchDatasources": "supportedDatasources",
@@ -15,18 +15,7 @@
         "Adoption",
         "Passing",
         "Confidence"
-      ]
-    }
-  ],
-   "hostRules": [
-    {
-      "hostType": "npm",
-      "matchHost": "https://npm.pkg.github.com",
-       "encrypted": {
-         "token": "wcFMA7l7wlim0kewAQ/+NYhR5vQKvHKH/jUMISihnZZ/s6QXEiopOazQJ79QHEP3LPfkcYLMxz6SsZmDXI3sTqUYM+t/n+Eef0U9sFduWzF46KPcvGEoEHBt57OtJUQFp36E8mkHZ9qqq0lSQflg7EmITE207qUqbe/+LG/m0yWnDjszamqqXc7lBCzQmpSe6TZ21cxKltFzfMFcNf9gor713/iqq/uiAKFqRhxTh57YX8Fx0iCElnrEcUcZ8OV/7vvFdfflHG5uM6lM72MadsJdsGPLBx5UtsOFQ04EU21olrd2p8pcoNgs3Dh0r2EUseBbiOEd6IQR3onRjZb2ms6tByq2nn09D3nl16T6hzziegGHSjEDXgytQsyp/I1ga+rlaeerTQ4dzy+JsRHl7NM+K1S4uFBTRQUZEE5Rlj2h8J9tPUpiu8XmMRO39oFxUfqNZSFHnDsQIfAzBFk48BxVATCKeDqD5P01HNjrX3MWwcACY2BEXKVATraErsCtuQNEU+b6rO2EIdMMMh9XfUjvstA210ji3f4YWM2LHjsvg4P8NO651veQD4HWgXRNWh9BkCye3PIZ+OZUinKPoPQNqgYy3eEVU5twERwI31m++TQyauqtT5tDYTcQauipy+7+6zVeRbqGrIhLN6jSolOcHgcIOoFzGjq44lmzg7mc78I9GU2GHyEVNt2MTE3SeQF8oo8DEkkiRRTvZW7hmOP5MFNMw0/+7hlv0CuvYmEbIVnsC1kE0ZDV5o7HVpeyyqi1O/ER7gSVNSvcYfdP9ZWBkj21z3o2UIhVOWoqMlDd1WkoLvFKNnsKrHc7eHA+gHIT6LedZ0HulbOp080sLTFOQt7Cc84FB1w"
-      }
-    }
-  ],
+      ],
 "prBodyDefinitions": {
   "Package": "{{{depNameLinked}}}",
   "Type": "{{{depType}}}",
@@ -42,4 +31,16 @@
   "Passing": "{{#if newVersion}}[![passing](https://developer.mend.io/api/mc/badges/compatibility/{{datasource}}/{{replace '/' '%2f' packageName}}/{{{currentVersion}}}/{{{newVersion}}}?slim=true)](https://docs.renovatebot.com/merge-confidence/){{/if}}",
   "Confidence": "{{#if newVersion}}[![confidence](https://developer.mend.io/api/mc/badges/confidence/{{datasource}}/{{replace '/' '%2f' packageName}}/{{{currentVersion}}}/{{{newVersion}}}?slim=true)](https://docs.renovatebot.com/merge-confidence/){{/if}}"
 }
+    }
+  ],
+   "hostRules": [
+    {
+      "hostType": "npm",
+      "matchHost": "https://npm.pkg.github.com",
+       "encrypted": {
+         "token": "wcFMA7l7wlim0kewAQ/+NYhR5vQKvHKH/jUMISihnZZ/s6QXEiopOazQJ79QHEP3LPfkcYLMxz6SsZmDXI3sTqUYM+t/n+Eef0U9sFduWzF46KPcvGEoEHBt57OtJUQFp36E8mkHZ9qqq0lSQflg7EmITE207qUqbe/+LG/m0yWnDjszamqqXc7lBCzQmpSe6TZ21cxKltFzfMFcNf9gor713/iqq/uiAKFqRhxTh57YX8Fx0iCElnrEcUcZ8OV/7vvFdfflHG5uM6lM72MadsJdsGPLBx5UtsOFQ04EU21olrd2p8pcoNgs3Dh0r2EUseBbiOEd6IQR3onRjZb2ms6tByq2nn09D3nl16T6hzziegGHSjEDXgytQsyp/I1ga+rlaeerTQ4dzy+JsRHl7NM+K1S4uFBTRQUZEE5Rlj2h8J9tPUpiu8XmMRO39oFxUfqNZSFHnDsQIfAzBFk48BxVATCKeDqD5P01HNjrX3MWwcACY2BEXKVATraErsCtuQNEU+b6rO2EIdMMMh9XfUjvstA210ji3f4YWM2LHjsvg4P8NO651veQD4HWgXRNWh9BkCye3PIZ+OZUinKPoPQNqgYy3eEVU5twERwI31m++TQyauqtT5tDYTcQauipy+7+6zVeRbqGrIhLN6jSolOcHgcIOoFzGjq44lmzg7mc78I9GU2GHyEVNt2MTE3SeQF8oo8DEkkiRRTvZW7hmOP5MFNMw0/+7hlv0CuvYmEbIVnsC1kE0ZDV5o7HVpeyyqi1O/ER7gSVNSvcYfdP9ZWBkj21z3o2UIhVOWoqMlDd1WkoLvFKNnsKrHc7eHA+gHIT6LedZ0HulbOp080sLTFOQt7Cc84FB1w"
+      }
+    }
+  ],
+
 }
