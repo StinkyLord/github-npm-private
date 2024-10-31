@@ -1,7 +1,6 @@
 {
    "extends": [
-	   	"mergeConfidence:all-badges",
-		"config:base",
+		"config:recommended",
 	        ":disableRateLimiting"
 	],
     "packageRules": [
